@@ -1,7 +1,6 @@
-.collection {
+.two {
     border: 0px;
-    height: 100vh;
-    margin-top: 0px;
+    height: auto;
     margin-left: 0px;  
 }
 .collection-item {
@@ -15,7 +14,7 @@
     padding: 10px;   
 }
 .collection-item div{
-    padding-left: 10px;   
+    padding-left: 5px;   
 }
 .collection-item div img {
     width: 20px;
@@ -24,11 +23,58 @@
 .collection-header {
     border-bottom: 2px solid grey;
 }
-.sidebar ul{  
-    box-shadow: 4px 0px rgb(218, 217, 213) !important;  
+.two {  
+    box-shadow: 4px 0px rgb(204, 204, 203) !important;  
+    height: 100% !important;
 }
 .one {
     margin-bottom: 0px;       
-    height: 100vh;  
+    height: 100vh !important;  
+}
+.collection {
+    margin-top: 0px
 }
 
+.block {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.three {
+    height: 15vh;
+    border: 0px;
+}
+.col-m {
+    margin-bottom: 50px;
+}
+.d-flex {
+    display: flex;
+    height: auto;
+    align-items: center;
+
+  
+}
+.d-flex div {
+    padding-right:10px;
+    
+}
+.d-flex img {
+    width: 30px;
+    height: 30px;
+   
+}
+.card {
+    padding: 15px;
+    box-shadow: 4px 4px rgb(204, 204, 203) !important; 
+}
+
+.card-action  {
+    display: flex;
+}
+.card-action div {
+    padding-right: 5px;
+}
