@@ -1,0 +1,36 @@
+.collection {
+    border: 0px;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+.collection-item {
+    border-bottom: 0px !important;
+    background-color: darkcyan;
+    margin-right: 15px !important;
+    padding-left: 0px !important;
+    display: flex;
+}
+.collection-item > div {     
+    padding: 10px;   
+}
+.collection-item div{
+    padding-left: 10px;   
+}
+.collection-item div img {
+    width: 20px;
+    height: 20px;
+}
+.collection-header {
+    border-bottom: 2px solid grey;
+}
+.sidebar ul{  
+    box-shadow:  3px 0px rgb(218, 217, 213) !important;  
+}
+.one {
+    margin-bottom: 0px;   
+    margin-left: 0px;
+    height: 100vh;  
+    width: auto;
+}
+
