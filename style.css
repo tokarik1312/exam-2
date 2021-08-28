@@ -105,10 +105,9 @@
     position: relative;
     width: 100% !important;
     height: 130px;
-    top: -60px;
+    top: -80px;
     display: flex;
     padding-left: 20px;
-    margin-top: -22px;
 }
 .block-4 > div {
     margin-top: 15px;
@@ -127,4 +126,8 @@ footer > div {
 }
 footer > div div {
     padding-left: 20px;
+}
+.ert {
+    height: 450px;
+   
 }
