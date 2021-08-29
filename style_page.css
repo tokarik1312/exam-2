@@ -1,9 +1,8 @@
 .two {
     border: 0px;
-    height: 185vh;
+    /* height: 185vh; */
     margin-left: 0px;  
-    box-shadow: 7px 0px rgb(200, 198, 198) !important;
-    width: 15.55vw;
+    /* box-shadow: 7px 0px rgb(200, 198, 198) !important;   */
 }
 .collection-item {
     border-bottom: 0px !important;
@@ -76,9 +75,11 @@ footer > div div {
     flex-direction: column;
     align-items: center;
 }
-.card-content > div:nth-child(2) {
-    margin-top: -70px;
-    padding: 10px;
+.content {
+    margin-top: -70px;   
+}
+.content > div {
+padding: 10px;
 }
 .round {
     height: 200px;
@@ -96,4 +97,7 @@ footer > div div {
 .btn {
     padding-left: 100px;
     padding-right: 100px;
+}
+.border {
+   border-left: 5px solid rgb(180, 175, 175);
 }

@@ -1,9 +1,6 @@
 .two {
     border: 0px;
-    height: 160vh;
     margin-left: 0px;  
-    box-shadow: 7px 0px rgb(200, 198, 198) !important;
-    width: 15.55vw;
 }
 .collection-item {
     border-bottom: 0px !important;
@@ -130,3 +127,6 @@ footer > div div {
 .ert {
     height: 450px;  
 }
+.border {
+    border-left: 5px solid rgb(180, 175, 175);
+ }

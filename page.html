@@ -12,7 +12,7 @@
 
 <body>
     <div class="row one grey lighten-5 menu z-depth-5">
-        <div class="col l2 hide-on-med-and-down">
+        <div class="col m3 l2 hide-on-small-only">
 
             <ul class="collection with-header two">
                 <li class="collection-header grey lighten-5">
@@ -47,21 +47,22 @@
 
 
 
-        <div class="col s12 m12 l10 grey lighten-2">
-            <div class="row">
+        <div class="col s12 m9 l10 grey lighten-2 border">          
                 <div class="col s12 m12">
                     <ul class="collection with-header three">
                         <li class="collection-header grey lighten-2">
                             <div class="d-flex">
+                                <div class="hide-on-med-and-up"><img src="./icons/menu.png" alt=""></div>
                                 <div>
-                                    <h5><strong>User Profile</strong></h5>
+                                    <h5><strong>USER PROFILE</strong></h5>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col s12 m12 l12 xl8 col-m">
-                    <div class="card ert">
+                
+                <div class="col s12 m12 l8 xl8 col-m hide-on-med-and-down">
+                    <div class="card">
                         <div class="black-text">
                             <div class="block pink darken-2 white-text">
                                 <div>
@@ -131,17 +132,16 @@
                             </div>
 
 
-
-
+                          
                         </div>
 
                     </div>
                 </div>
-                <div class="col s12 m6 l6 xl4 col-m">
+                <div class="col s12 m12 l4 xl4 col-m hide-on-med-and-down">
                     <div class="card">
                         <div class="card-content black-text center-align ">
                             <div class="round"><img src="./icons/testimonials-2.jpg" alt=""></div>
-                            <div>
+                            <div class="content">
                                 <div>
                                     <p></p>CEO / CO-FOUNDER</p>
                                 </div>
@@ -153,52 +153,134 @@
                                 </div>
                             </div>
                         </div>
+                   </div>
+
+                   
+                </div>
+           
+
+               
+           
+
+            <div class="col s12 m12 l12 xl12 col-m hide-on-large-only">
+                <div class="card">
+                    <div class="card-content black-text center-align ">
+                        <div class="round"><img src="./icons/testimonials-2.jpg" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p></p>CEO / CO-FOUNDER</p>
+                            </div>
+                            <div><b>Alex Thompson</b></div>
+                            <div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ea soluta aliquam
+                                    laudantium sint, cum eum neque repudiandae sit quasi quia, quibusdam facere ab
+                                    tempora voluptates quos eos! Nesciunt, sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l12 xl12 col-m hide-on-large-only" style="margin-top: 100px;">
+                <div class="card">
+                    <div class="black-text">
+                        <div class="block pink darken-2 white-text">
+                            <div>
+                                <h5>Edit Profile</h5>
+                                <p>Complete your profile</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Company</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Username</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Email adress</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">First name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Last name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Adress</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s4">
+                                        <input placeholder="Placeholder" id="first_name" type="text"
+                                            class="validate">
+                                        <label for="first_name">City</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">County</label>
+                                    </div>
+                                    <div class="input-field col s4">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Postal code</label>
+                                    </div>
+                                </div>
+
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                            <label for="textarea1">About me</label>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </form>
+                            <a class="waves-effect waves-light btn pink darken-2 right">UPDATE PROFILE</a>
+                        </div>
+
+
+
 
                     </div>
 
                 </div>
-
-
-
+            </div>
+            <div class="col s12 m12 l12 xl12 col-m">
+                <footer class="grey lighten-2">
+                    <div>
+                        <div>
+                            <b>ABOUT</b>
+                        </div>
+                        <div>
+                            <b>BLOG</b>
+                        </div>
+                        <div>
+                            <b>LICENSES</b>
+                        </div>
+                    </div>
+                    <div>
+                        2019 - made with love
+                    </div>
+                </footer>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <footer>
-                <div>
-                    <div>
-                        <b>ABOUT</b>
-                    </div>
-                    <div>
-                        <b>BLOG</b>
-                    </div>
-                    <div>
-                        <b>LICENSES</b>
-                    </div>
-                </div>
-                <div>
-                    2019 - made with love
-                </div>
-            </footer>
-
-
-
-
-
         </div>
+        
 
+
+    </div>
 
 
     </div>
