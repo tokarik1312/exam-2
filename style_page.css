@@ -57,3 +57,17 @@ footer > div div {
 .collection {
     margin-top: 0px
 }
+.block {
+    position: relative;
+    width: 100% !important;
+    height: 130px;
+    top: -80px;
+    display: flex;
+    padding-left: 20px;
+}
+.block > div {
+    margin-top: 15px;
+}
+.card {
+    padding: 25px;
+}
